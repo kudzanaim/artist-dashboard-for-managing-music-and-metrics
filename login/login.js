@@ -533,7 +533,7 @@ var Login = {
 
         // Make request to register
         if( validate_ != undefined && typeof(validate_) == "object"){
-            var url = `https://us-central1-strmaartists.cloudfunctions.net/registerUser`;
+            var url = ``;
             var userdata_ = validate_;
 
             // Ajax request to endpoint
